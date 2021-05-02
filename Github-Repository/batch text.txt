@@ -1,0 +1,77 @@
+@echo off
+:: //exit /b
+:: //it will exit from the program by clicking any key
+
+echo first line
+
+echo.
+:: //echo. == for giving the one line sapce
+
+echo second line
+
+cls
+:: //cls == clear
+
+echo 3rd line
+echo 4th line
+echo.
+echo 5th line
+
+:: //goto == for loop.
+echo.
+
+echo ===== input from user ==========
+
+set /p a="enter the first no: "
+:: //set will accept the input from user and store in variable
+
+echo %a%
+echo.
+:: //%variable% will give you the value store in that variable
+
+set /p b="enter the second no: "
+echo %b%
+echo.
+set /a c=%a%+%b%
+echo addition is %c%
+echo.
+echo.
+echo.
+
+echo ========== if else statement ==========
+
+set /p x="enter the first no: "
+:: //set will accept the input from user and store in variable
+
+echo %x%
+echo.
+:: //%variable% will give you the value store in that variable
+
+set /p y="enter the second no: "
+echo %y%
+echo.
+if %x%==%y% (echo input matched) else (echo input not matched)
+
+echo.
+echo.
+:: echo =================generate the randome numbers screen=====================
+:: :loop
+:: echo %random% %random% %random% %random% %random% %random% %random% %random% %random% %random% %random% %random% %random% %random% %random% %random% %random% %random% %random% %random% %random% %random% %random% %random% %random% %random% %random% %random% %random% %random% %random% %random% %random% %random% %random% %random% %random%
+:: goto loop
+:: %random% generate the random number
+echo.
+:: echo =================copy file from one drive to another drive=====================
+cd/
+cd Users
+cd Riyaz Basha
+cd Desktop
+xcopy batch.txt "D:\"
+echo.
+echo.
+echo =========================create a empty text file===========================
+echo .>> textfile123.txt
+echo .> textfil1.txt
+:: echo .> and echo .>> will create a empty text file
+
+
+pause

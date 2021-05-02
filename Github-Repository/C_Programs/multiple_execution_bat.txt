@@ -1,0 +1,76 @@
+@ echo off
+echo ===================executing the program==================
+::echo =================== array pointer ========================
+gcc -o arr_pointer arr_pointer.c
+echo.
+
+::echo =================== fibonacci series ========================
+gcc fabnoci_series.c -o fabnoci_series
+echo.
+
+::echo =================== factorial of a number ========================
+gcc factorial.c -o factorial
+echo.
+
+::echo =================== largest no ========================
+gcc largest_no.c -o largest_no
+echo.
+
+::echo =================== pointer practice ========================
+gcc pointer_practice.c -o pointer_practice
+echo.
+
+::echo =================== prime no ========================
+gcc prime.c -o prime
+echo.
+
+::echo =================== reverse number ========================
+gcc reverse_number.c -o reverse_number
+echo.
+
+pause
+
+echo ====================run the programs ========================
+
+echo =================== array pointer ========================
+
+arr_pointer
+echo.
+pause
+
+echo =================== fibonacci series ========================
+
+fabnoci_series
+echo.
+pause
+
+echo =================== factorial of a number ========================
+
+factorial
+echo.
+pause
+
+echo =================== largest no ========================
+
+largest_no
+echo.
+pause
+
+echo =================== pointer practice ========================
+
+pointer_practice
+echo.
+pause
+
+echo =================== prime no ========================
+
+prime
+echo.
+pause
+
+echo =================== reverse number ========================
+
+reverse_number
+echo.
+
+pause
